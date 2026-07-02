@@ -1,0 +1,50 @@
+.Navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #757575;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 10vh;
+  width: 10vw;
+  background-image: url(./tvm-header-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 4vw;
+  margin-top: 1vh;
+}
+.auth-links {
+  margin-right: 4vw;
+  margin-top: 3vh;
+  font-size: 4vh;
+}
+.auth-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.search {
+  margin-left: 4vw;
+  margin-top: 2vh;
+  width: 40vw;
+  height: 6vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  font-size: 28px;
+  color: #666;
+}
+.search button {
+  width: 6vh;
+  height: 6vh;
+  background-color: #01c844;
+}
