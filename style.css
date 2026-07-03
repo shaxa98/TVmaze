@@ -70,3 +70,21 @@
 .search-box button:hover {
   background: #34827a;
 }
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  background-color: #3f988f;
+  height: 6vh;
+  width: 100vw;
+}
+.Xolli {
+  width: 20vw;
+}
+.buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+  font-family: "Roboto", sans-serif;
+}
