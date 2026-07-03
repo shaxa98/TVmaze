@@ -88,3 +88,113 @@
   font-size: 2.5vh;
   font-family: "Roboto", sans-serif;
 }
+.sallavha {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vh;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: 5vw;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  width: 70vw;
+
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  width: 30vw;
+  background-color: #c24b4b;
+}
+.banner5ta {
+  display: flex;
+  width: 100%;
+}
+.banner {
+  margin: 0.5vh;
+  width: 15vw;
+  height: 40vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8vh;
+  background-color: #13413d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.Kino1 {
+  background-image: url(./01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino2 {
+  background-image: url(./02.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino3 {
+  background-image: url(./03.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino4 {
+  background-image: url(./04.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino5 {
+  background-image: url(./05.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino6 {
+  background-image: url(./06.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino7 {
+  background-image: url(./07.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino8 {
+  background-image: url(./08.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino9 {
+  background-image: url(./09.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.Kino10 {
+  background-image: url(./10.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
