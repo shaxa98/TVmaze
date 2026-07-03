@@ -1,3 +1,6 @@
+. {
+  font-family: "Roboto", sans-serif;
+}
 .Navbar {
   width: 100vw;
   height: 10vh;
@@ -6,45 +9,64 @@
   justify-content: space-between;
 }
 .logo {
-  height: 10vh;
+  height: 20vh;
   width: 10vw;
   background-image: url(./tvm-header-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 4vw;
-  margin-top: 1vh;
+  margin-top: 2vh;
 }
 .auth-links {
   margin-right: 4vw;
   margin-top: 3vh;
-  font-size: 4vh;
+  font-size: 3vh;
+  display: flex;
+  gap: 1vw;
 }
 .auth-links a {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
-.search {
-  margin-left: 4vw;
-  margin-top: 2vh;
-  width: 40vw;
-  height: 6vh;
 
+.search-box {
+  margin-top: 1.5vh;
+  width: 35vw;
+  height: 5vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
+  align-content: center;
+  border-radius: 40px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
-.search input {
+
+.search-box input {
   flex: 1;
+  margin-right: 5vw;
   border: none;
   outline: none;
   padding: 0 30px;
-  font-size: 28px;
-  color: #666;
+  font-size: 2vh;
+  color: #444;
 }
-.search button {
-  width: 6vh;
-  height: 6vh;
-  background-color: #01c844;
+
+.search-box input::placeholder {
+  color: #bdbdbd;
+}
+
+.search-box button {
+  width: 150px;
+  border: none;
+  background: #3f988f;
+  color: #fff;
+  font-size: 3vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #34827a;
 }
