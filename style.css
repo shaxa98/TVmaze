@@ -104,11 +104,12 @@
 
 .left {
   width: 70vw;
-
+  margin: 2vh;
   display: flex;
   flex-direction: column;
 }
 .right {
+  margin: 2vh;
   width: 30vw;
   background-color: #c24b4b;
 }
