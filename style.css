@@ -111,7 +111,7 @@
 .right {
   margin: 2vh;
   width: 30vw;
-  background-color: #c24b4b;
+  border: solid 1px #3f988f;
 }
 .banner5ta {
   display: flex;
@@ -211,4 +211,34 @@
 }
 .Miyoni-banner h1 {
   font-family: "Roboto", sans-serif;
+}
+.time1 {
+  background-color: rgb(99, 99, 99);
+  color: white;
+  height: 8%;
+  display: flex;
+
+  align-items: center;
+}
+.time1 h1 {
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+}
+.time2 {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vh;
+  background-color: rgb(223, 220, 220);
+}
+.time2 a {
+  text-decoration: none;
+  color: rgb(3, 149, 110);
+}
+.time1 a {
+  text-decoration: none;
+  color: rgb(3, 149, 110);
 }
