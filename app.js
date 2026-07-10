@@ -43,37 +43,81 @@
 //   }
 // }
 
-const mevalar = ["Olma", "Anor", "Banan"];
-mevalar.sort();
-console.log(mevalar); // ['Anor', 'Banan', 'Olma']
+// const mevalar = ["Olma", "Anor", "Banan"];
+// mevalar.sort();
+// console.log(mevalar); // ['Anor', 'Banan', 'Olma']
 
-// const sonlar =;
+// const bolalarIsmlari = [
+//   "Sardor",
+//   "Bekzod",
+//   "Ibrohim",
+//   "Laziz",
+//   "Jasur",
+//   "Asadbek",
+//   "Xondamir",
+//   "Kamron",
+//   "Muhammad",
+//   "Nodir",
+//   "Gʻiyos",
+//   "Temur",
+//   "Diyorbek",
+//   "Bilol",
+//   "Umid",
+//   "Farruh",
+//   "Vali",
+//   "Eldor",
+//   "Humoyun",
+//   "Abbos",
+//   "Zafar",
+//   "Olim",
+//   "Firdavs",
+//   "Hikmat",
+//   "Doniyor",
+//   "Qobil",
+//   "Poʻlat",
+//   "Rasul",
+//   "Yahyoxon",
+//   "Gʻofur",
+// ];
+// bolalarIsmlari.sort();
+// // console.log(bolalarIsmlari);
+// let ismlar = [];
+// ismlar.push(bolalarIsmlari);
+// console.log(ismlar);
+
+// const sonlar = [8, 12345, 245, 42335, 5, 9, 60, 10, 23, 45];
 
 // // O'sish tartibida:
-// sonlar.sort((a, b) => a - b);
-// console.log(sonlar); // [2, 5, 10]
+// // sonlar.sort((a, b) => a - b);
+// // console.log(sonlar);
 
 // // Kamayish tartibida:
 // sonlar.sort((a, b) => b - a);
 // console.log(sonlar); // [10, 5, 2]
 
 // const odamlar = [
-//   { ism: 'Ali', yosh: 25 },
-//   { ism: 'Vali', yosh: 20 }
+//   { ism: "Ali", yosh: 25 },
+//   { ism: "Vali", yosh: 20 },
+//   { ism: "Avaz", yosh: 12 },
+//   { ism: "Sorob", yosh: 13 },
+//   { ism: "Abdulboqiy", yosh: 12 },
+//   { ism: "Salohiddin", yosh: 13 },
+//   { ism: "Javoxir", yosh: 15 },
 // ];
 
 // // Yoshi bo'yicha o'sish tartibida:
 // odamlar.sort((a, b) => a.yosh - b.yosh);
 // console.log(odamlar); // Kichigi birinchi chiqadi
 
-// const harflar = ['A', 'B', 'C', 'D'];
+// const harflar = ["R", "T", "Y", "D"];
 // harflar.reverse();
+// console.log(harflar);
 
 // console.log(harflar); // ['D', 'C', 'B', 'A']
 
-// const mevalar = ['Olma', 'Anor', 'Banan'];
+// const mevalar = ["A", "Q", "D", "W", "P", "B", "R"];
 
-// // Oldin saralanadi, keyin teskari qilinadi
+// Oldin saralanadi, keyin teskari qilinadi
 // mevalar.sort().reverse();
 
 // console.log(mevalar); // ['Olma', 'Banan', 'Anor']
@@ -84,13 +128,13 @@ console.log(mevalar); // ['Anor', 'Banan', 'Olma']
 // console.log(original); // [3, 2, 1] <-- Asl massiv ham o'zgardi!
 // console.log(teskari);  // [3, 2, 1]
 
-// const original =;
+const original = ["Olma", "Banan", "Anor"];
 
-// // 1-usul: Spread operatori
-// const nusxa1 = [...original].reverse();
+// 1-usul: Spread operatori
+const nusxa1 = [...original].reverse();
 
-// // 2-usul: Zamonaviy .toReversed() metodi (Asl massivga tegmaydi)
-// const nusxa2 = original.toReversed();
+// 2-usul: Zamonaviy .toReversed() metodi (Asl massivga tegmaydi)
+const nusxa2 = original.toReversed();
 
-// console.log(original); // [1, 2, 3] <-- Asl massiv o'zgarmadi
-// console.log(nusxa2);   // [3, 2, 1]
+console.log(original); // [1, 2, 3] <-- Asl massiv o'zgarmadi
+console.log(nusxa2); // [3, 2, 1]
