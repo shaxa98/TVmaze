@@ -128,13 +128,34 @@
 // console.log(original); // [3, 2, 1] <-- Asl massiv ham o'zgardi!
 // console.log(teskari);  // [3, 2, 1]
 
-const original = ["Olma", "Banan", "Anor"];
+// const original = ["Olma", "Banan", "Anor"];
 
 // 1-usul: Spread operatori
-const nusxa1 = [...original].reverse();
+// const nusxa1 = [...original].reverse();
 
 // 2-usul: Zamonaviy .toReversed() metodi (Asl massivga tegmaydi)
-const nusxa2 = original.toReversed();
+// const nusxa2 = original.toReversed();
 
-console.log(original); // [1, 2, 3] <-- Asl massiv o'zgarmadi
-console.log(nusxa2); // [3, 2, 1]
+// console.log(original); // [1, 2, 3] <-- Asl massiv o'zgarmadi
+// console.log(nusxa2); // [3, 2, 1]
+
+const mevalar = ["banan", "olma"];
+
+mevalar.unshift("anor");
+
+console.log(mevalar);
+
+// const sonlar = [1, 2, 3, 4];
+
+// // Har bir elementni 2 ga ko'paytiramiz
+// const ikkilanganSonlar = sonlar.map((son) => son * 2);
+// console.log(ikkilanganSonlar);
+// console.log(sonlar);
+
+// const mevalar = ["olma", "anor", "behi"];
+
+// const natija = mevalar.map((meva, index) => {
+//   return `${index + 1}. ${meva}`;
+// });
+
+// console.log(natija);
