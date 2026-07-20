@@ -159,3 +159,18 @@ console.log(mevalar);
 // });
 
 // console.log(natija);
+
+// const sonlar = [1, 2, 3, 4, 5, 6];
+// const juftSonlar = sonlar.filter((son) => son % 2 === 0);
+// console.log(juftSonlar);
+// console.log(sonlar);
+
+// const mahsulotlar = [
+//   { nom: "Telefon", narx: 800 },
+//   { nom: "Chexol", narx: 15 },
+//   { nom: "Naushnik", narx: 50 },
+//   { nom: "Kabel", narx: 10 },
+// ];
+// const arzonMahsulotlar = mahsulotlar.filter((mahsulot) => mahsulot.narx < 20);
+
+// console.log(arzonMahsulotlar);
