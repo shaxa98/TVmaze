@@ -157,21 +157,73 @@ const juftSonlar = sonlar.filter((son) => son % 2 === 0);
 // console.log(ikkilanganSonlar);
 // console.log(sonlar1);
 
-const odamlar = [
-  { ism: "Ali", yosh: 17 },
-  { ism: "Vali", yosh: 20 },
-  { ism: "Hasan", yosh: 25 },
-  { ism: "Husan", yosh: 15 },
-  { ism: "Salohiddin", yosh: 13 },
-  { ism: "Abdulboqi", yosh: 12 },
-  { ism: "Javoxir", yosh: 15 },
+// const odamlar = [
+//   { ism: "Ali", yosh: 17 },
+//   { ism: "Vali", yosh: 20 },
+//   { ism: "Hasan", yosh: 25 },
+//   { ism: "Husan", yosh: 15 },
+//   { ism: "Salohiddin", yosh: 13 },
+//   { ism: "Abdulboqi", yosh: 12 },
+//   { ism: "Javoxir", yosh: 15 },
+// ];
+
+// const kattalar = odamlar.filter((odam) => odam.yosh >= 18);
+// const Kichiklar = odamlar.filter((odam) => odam.yosh <= 18);
+
+// console.log(kattalar);
+// console.log(Kichiklar);
+
+const students = [
+  { name: "Ali", baho: 85 },
+  { name: "Vali", baho: 52 },
+  { name: "Hasan", baho: 80 },
+  { name: "Husan", baho: 40 },
+  { name: "Aziz", baho: 35 },
+  { name: "Bekzod", baho: 70 },
+  { name: "Jasur", baho: 35 },
+  { name: "Sardor", baho: 68 },
+  { name: "Diyor", baho: 74 },
+  { name: "Shahzod", baho: 88 },
 ];
 
-const kattalar = odamlar.filter((odam) => odam.yosh >= 18);
-const Kichiklar = odamlar.filter((odam) => odam.yosh <= 18);
+const mevalar = ["olma", "anor", "banan", "uzum"];
 
-console.log(kattalar);
-console.log(Kichiklar);
+const natija = mevalar.filter((meva) => meva.includes("a"));
+
+console.log(natija);
+
+const ismlar = [
+  "Ali",
+  "Vali",
+  "Hasan",
+  "Husan",
+  "Aziz",
+  "Bekzod",
+  "Jasur",
+  "Sardor",
+  "Diyor",
+  "Shahzod",
+  "Akmal",
+  "Anvar",
+  "Jamshid",
+  "Sherzod",
+  "Ulug'bek",
+  "Bobur",
+  "Muhammad",
+  "Oybek",
+  "Sanjar",
+  "Dilshod",
+  "Rustam",
+  "Nodir",
+  "Abdulloh",
+  "Temur",
+  "Zafar",
+  "Komil",
+  "Baxtiyor",
+  "Islom",
+  "Farhod",
+  "Odil",
+];
 
 // const mevalar = ["olma", "anor", "behi"];
 
