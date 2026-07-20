@@ -148,17 +148,30 @@
 // console.log(mevalar);
 
 const sonlar = [1, 2, 3, 4, 5, 6, 7, 8];
-
 const juftSonlar = sonlar.filter((son) => son % 2 === 0);
 
-console.log(juftSonlar);
+// console.log(juftSonlar);
 
-// const sonlar = [1, 2, 3, 4];
-
-// // Har bir elementni 2 ga ko'paytiramiz
-// const ikkilanganSonlar = sonlar.map((son) => son * 2);
+// const sonlar1 = [1, 2, 3, 4];
+// const ikkilanganSonlar = sonlar1.map((son) => son * 2);
 // console.log(ikkilanganSonlar);
-// console.log(sonlar);
+// console.log(sonlar1);
+
+const odamlar = [
+  { ism: "Ali", yosh: 17 },
+  { ism: "Vali", yosh: 20 },
+  { ism: "Hasan", yosh: 25 },
+  { ism: "Husan", yosh: 15 },
+  { ism: "Salohiddin", yosh: 13 },
+  { ism: "Abdulboqi", yosh: 12 },
+  { ism: "Javoxir", yosh: 15 },
+];
+
+const kattalar = odamlar.filter((odam) => odam.yosh >= 18);
+const Kichiklar = odamlar.filter((odam) => odam.yosh <= 18);
+
+console.log(kattalar);
+console.log(Kichiklar);
 
 // const mevalar = ["olma", "anor", "behi"];
 
