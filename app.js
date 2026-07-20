@@ -139,11 +139,19 @@
 // console.log(original); // [1, 2, 3] <-- Asl massiv o'zgarmadi
 // console.log(nusxa2); // [3, 2, 1]
 
-const mevalar = ["banan", "olma"];
+// const mevalar = ["banan", "olma"];
 
-mevalar.unshift("anor");
+// mevalar.unshift("anor");
+// mevalar.unshift("Abdulboqi");
+// mevalar.unshift("Salohiddin");
 
-console.log(mevalar);
+// console.log(mevalar);
+
+const sonlar = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const juftSonlar = sonlar.filter((son) => son % 2 === 0);
+
+console.log(juftSonlar);
 
 // const sonlar = [1, 2, 3, 4];
 
