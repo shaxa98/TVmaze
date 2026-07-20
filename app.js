@@ -147,8 +147,8 @@
 
 // console.log(mevalar);
 
-const sonlar = [1, 2, 3, 4, 5, 6, 7, 8];
-const juftSonlar = sonlar.filter((son) => son % 2 === 0);
+// const sonlar = [1, 2, 3, 4, 5, 6, 7, 8];
+// const juftSonlar = sonlar.filter((son) => son % 2 === 0);
 
 // console.log(juftSonlar);
 
@@ -174,8 +174,9 @@ const juftSonlar = sonlar.filter((son) => son % 2 === 0);
 // console.log(Kichiklar);
 
 const students = [
-  { name: "Ali", baho: 85 },
-  { name: "Vali", baho: 52 },
+  { name: "Shahzod", baho: 88 },
+  { name: "Salohiddin", baho: 98 },
+  { name: "Abdulboqi1", baho: 85 },
   { name: "Hasan", baho: 80 },
   { name: "Husan", baho: 40 },
   { name: "Aziz", baho: 35 },
@@ -183,48 +184,55 @@ const students = [
   { name: "Jasur", baho: 35 },
   { name: "Sardor", baho: 68 },
   { name: "Diyor", baho: 74 },
-  { name: "Shahzod", baho: 88 },
 ];
 
-const mevalar = ["olma", "anor", "banan", "uzum"];
+const Birinchi = students.find((baho) => baho.baho <= 100);
 
-const natija = mevalar.filter((meva) => meva.includes("a"));
+console.log(Birinchi);
+// const mevalar = ["olma", "anor", "banan", "uzum"];
 
-console.log(natija);
+// const natija = mevalar.filter((meva) => meva.includes("a"));
 
-const ismlar = [
-  "Ali",
-  "Vali",
-  "Hasan",
-  "Husan",
-  "Aziz",
-  "Bekzod",
-  "Jasur",
-  "Sardor",
-  "Diyor",
-  "Shahzod",
-  "Akmal",
-  "Anvar",
-  "Jamshid",
-  "Sherzod",
-  "Ulug'bek",
-  "Bobur",
-  "Muhammad",
-  "Oybek",
-  "Sanjar",
-  "Dilshod",
-  "Rustam",
-  "Nodir",
-  "Abdulloh",
-  "Temur",
-  "Zafar",
-  "Komil",
-  "Baxtiyor",
-  "Islom",
-  "Farhod",
-  "Odil",
-];
+// console.log(natija);
 
+// const ismlar = [
+//   "Ali",
+//   "Vali",
+//   "Hasan",
+//   "Husan",
+//   "Aziz",
+//   "Bekzod",
+//   "Jasur",
+//   "Sardor",
+//   "Diyor",
+//   "Shahzod",
+//   "Akmal",
+//   "Anvar",
+//   "Jamshid",
+//   "Sherzod",
+//   "Ulug'bek",
+//   "Bobur",
+//   "Muhammad",
+//   "Oybek",
+//   "Sanjar",
+//   "Dilshod",
+//   "Rustam",
+//   "Nodir",
+//   "Abdulloh",
+//   "Temur",
+//   "Zafar",
+//   "Komil",
+//   "Baxtiyor",
+//   "Islom",
+//   "Farhod",
+//   "Odil",
+// ];
+
+// const sonlar = [150, 10, 20, 30, 40, 200];
+
+// const natija = sonlar.find((son) => son > 100);
+
+// console.log(natija);
 // const mevalar = ["olma", "anor", "behi"];
 
 // const natija = mevalar.map((meva, index) => {
